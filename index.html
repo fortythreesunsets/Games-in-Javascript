@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 2D</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <!-- Any element created in the DOM with an id attribute, 
+    is automatically added to the javascript execution environment as a global variable.
+    This means you can access any HTML element from JavaScript using its id.
+    No need for document.getElementById or document.querySelector -->
+    <canvas id="canvas1"></canvas>
+    <img id="playerImage" src="./assets/player.png">
+    <img id="backgroundImage" src="./assets/background_single.png">
+    <img id="enemyImage" src="./assets/enemy_1.png">
+
+<!-- JavaScript Fullscreen API
+    Gives methods that allow to present a specific element and its descendants in full screen mode.
+    It will hide all browser UI elements, sidebars and other applications as long as full screen is active.-->
+    <button id="fullScreenBtn">Toggle Fullscreen</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
