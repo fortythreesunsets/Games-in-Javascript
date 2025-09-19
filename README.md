@@ -1,6 +1,7 @@
 ## Project name: 2D side scroller game
 
 Live Demo: https://codepen.io/fortythreesunsets/pen/ZYGZEWm
+Art by https://bevouliin.com/
 
 ## Technologies used:
 - HTML
@@ -12,9 +13,15 @@ Live Demo: https://codepen.io/fortythreesunsets/pen/ZYGZEWm
 - Parallax background
 - Collision detection
 - Score display
+- Full screen support
 - Mobile support
 
-## Controls:
+## PC Controls:
 - Arrow Up: Jump
 - Arrow Left/Arrow Right: Movement
 - Enter: Restart game
+
+## Mobile Controls:
+- Swipe Up: Jump
+- Swipe Left/Swipe Right: Movement
+- Swipe Down: Restart game
