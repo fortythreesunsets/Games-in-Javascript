@@ -86,7 +86,7 @@ window.addEventListener('load', function() {
             this.frameInterval = 1000/this.fps; // 1000 miliseconds / 20fps
             this.speed = 0;
             this.verticalVelocity = 0;
-            this.gravity = 1;
+            this.gravity = 1.5;
         }
 
         draw(context) {
@@ -273,7 +273,7 @@ window.addEventListener('load', function() {
 
     function displayStatusText(context) {
         context.textAlign = 'left';
-        context.font = '40px Helvetica';
+        context.font = '40px Bangers';
         context.fillStyle = 'black';
         context.fillText('Score: ' + score, 20, 50);
         context.fillStyle = 'white';
@@ -336,4 +336,5 @@ window.addEventListener('load', function() {
         if (!gameOver) requestAnimationFrame(animate);
     }
     animate(0);
+
 });
