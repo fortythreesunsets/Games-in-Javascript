@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Bangers", system-ui;
 }
 
 body {
@@ -30,4 +33,5 @@ body {
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
+
 }
